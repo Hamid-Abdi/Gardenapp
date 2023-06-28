@@ -1,0 +1,65 @@
+.leftBoxIcon {
+  width: 858px;
+  height: 1097px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.leftBoxIcon,
+.logoTextChild,
+.plantapp {
+  position: relative;
+}
+.logoTextChild {
+  width: 45px;
+  height: 39.7px;
+}
+.logoBox,
+.logoText {
+  display: flex;
+  align-items: center;
+}
+.logoText {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.logoBox {
+  position: absolute;
+  height: 6.23%;
+  width: 27.57%;
+  top: 22.4%;
+  right: 36.21%;
+  bottom: 71.36%;
+  left: 36.21%;
+  background: linear-gradient(89.89deg, #9bd196, #72c850);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+}
+.rightBox,
+.signUpPageWeb {
+  position: relative;
+  height: 1107px;
+  overflow: hidden;
+}
+.rightBox {
+  width: 856px;
+  flex-shrink: 0;
+}
+.signUpPageWeb {
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--color-white);
+  border: 10px solid #000;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+  text-align: left;
+  font-size: 40px;
+  color: var(--color-white);
+  font-family: var(--font-advent-pro);
+}

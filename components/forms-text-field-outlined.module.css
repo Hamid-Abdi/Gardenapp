@@ -1,0 +1,49 @@
+.container {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  height: 56px;
+}
+.value {
+  position: absolute;
+  top: 30px;
+  left: 14px;
+  line-height: 16px;
+  display: none;
+}
+.caption {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 12px;
+}
+.label {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs);
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+}
+.formsTextFieldOutlined {
+  position: absolute;
+  height: 9.97%;
+  width: 80.3%;
+  top: 23.87%;
+  right: 9.85%;
+  bottom: 66.16%;
+  left: 9.85%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--blue-grey-900);
+  font-family: var(--font-roboto);
+}
